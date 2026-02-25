@@ -1,41 +1,18 @@
 ===InteliJ Setup=====
 
-https://youtu.be/v8Lbz_HqW9I
-
-👉 Code ---> https://tinyurl.com/yc5dvf5n
-
 
 Intellij Installation
 ↓
-Download IntelliJ	DONE
-install IntelliJ	DONE
+Download IntelliJ
+install IntelliJ
 Download Python
 Create Python Project
 Install Pyspark
-Install JDK			C:\Users\yrghimire\.jdks\corretto-1.8.0_482-1 		C:\Users\yrghimire\.jdks\corretto-1.8.0_482
+Install JDK
 Create Pyfile with any name
-Open git url and copy the Code from announcement group
+Open git url and copy the Code from code_setup
 Paste in Pyfile
 Edit java path
 Run it
 
 
-
-================
-🔴 PLAN B -Pycharm
-================4
-
-Pycharm Pyspark Set up
-
-https://youtu.be/Dt8xtfA8OJc
-
-
-👉 Code ---> https://tinyurl.com/yc5dvf5n
-
-
-
-==============
-Spark Vs MR
-==============
-
-https://www.youtube.com/watch?v=rYwHfZ1Nlr8
