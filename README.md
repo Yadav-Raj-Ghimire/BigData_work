@@ -1,4 +1,4 @@
-⚡ PySpark Setup with IntelliJ IDEA (Windows Guide)
+*PySpark Setup with IntelliJ IDEA (Windows Guide)*
 
 A complete step-by-step guide to configure PySpark locally using IntelliJ IDEA with JDK and Python.
 This setup is ideal for Big Data coursework, Spark assignments, and local experimentation.
