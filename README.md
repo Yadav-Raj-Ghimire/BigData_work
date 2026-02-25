@@ -1,31 +1,37 @@
-*PySpark Setup with IntelliJ IDEA (Windows Guide)*
+**PySpark Setup with IntelliJ IDEA (Windows Guide)**
 
 A complete step-by-step guide to configure PySpark locally using IntelliJ IDEA with JDK and Python.
 This setup is ideal for Big Data coursework, Spark assignments, and local experimentation.
 
-🧰 Tech Stack
 
-IntelliJ IDEA (Community Edition)
+**============================================================================================**
+## **Intellij Installation**
+↓
+Download IntelliJ
+install IntelliJ
+Download Python
+Create Python Project
+Install Pyspark
+Install JDK
+Create Pyfile with any name
+Open git url and copy the Code from code_setup
+Paste in Pyfile
+Edit java path
+Run it
 
-Python 3.x
 
-PySpark
-
-JDK 8 or 11
-
-Windows OS
-
-📌 Installation & Configuration Steps
-1️⃣ Install IntelliJ IDEA
+===================================================================================================
+📌 **Installation & Configuration Steps**
+1️⃣ **Install IntelliJ IDEA**
 
 Download from:
-https://www.jetbrains.com/idea/download/
+*https://www.jetbrains.com/idea/download/*
 
 Install with default settings.
 
 Launch IntelliJ.
 
-2️⃣ Install Python
+2️⃣ **Install Python (3.10.11)**
 
 Download Python from:
 https://www.python.org/downloads/
@@ -34,91 +40,98 @@ During installation:
 
 ✅ Check “Add Python to PATH”
 
-Verify installation:
+✅ Verify installation:
 
-python --version
-3️⃣ Create a Python Project in IntelliJ
+✅ python --version
 
-Open IntelliJ
 
-Click New Project
+3️⃣ **Create a Python Project in IntelliJ**
 
-Select Python
+✅ Open IntelliJ
 
-Choose New Virtual Environment (.venv)
+✅ Click New Project
+
+✅ Select Python
+
+✅Choose New Virtual Environment (.venv) 
+
+✅ Python (3.10.11)
 
 Click Create
 
-4️⃣ Install PySpark
+4️⃣ **Install PySpark**
 
-Open IntelliJ Terminal and run:
+✅ Open IntelliJ Terminal and run:
 
-pip install pyspark
+✅ pip install pyspark
 
-Verify:
+✅Verify:
 
-pip show pyspark
-5️⃣ Install JDK (Required for Spark)
+✅pip show pyspark
 
-Download JDK 8 or 11 from:
 
-https://adoptium.net/
+5️⃣ **Install JDK (Required for Spark)**
 
-After installation:
+✅ After installation:
 
-Set Environment Variable
+✅ Set Environment Variable
 
-JAVA_HOME → Path to JDK installation
+✅ JAVA_HOME → Path to JDK installation
 
 Example:
 
 C:\Program Files\Java\jdk-11
 
-Add to system PATH:
+✅ Add to system PATH:
 
-%JAVA_HOME%\bin
+✅ %JAVA_HOME%\bin
 
-Verify:
+✅ Verify:
 
-java -version
-6️⃣ Create PySpark File
+✅ java -version
 
-Inside your project:
 
-Right click → New → Python File
+6️⃣ **Create PySpark File**
 
-Name it anything (e.g., main.py)
+✅ Inside your project:
 
-7️⃣ Copy Code from Repository
+✅ Right click → New → Python File
 
-Open GitHub repository
+✅ Name it anything (e.g., main.py)
 
-Go to code_setup
+7️⃣ **Copy Code from Repository**
 
-Copy the PySpark code
+✅ Open GitHub repository
 
-Paste into your Python file
+✅ Go to code_setup
 
-8️⃣ Edit Java Path in Code (If Required)
+✅ Copy the PySpark code
 
-Inside your script, make sure:
+✅ Paste into your Python file
 
-import os
-os.environ['JAVA_HOME'] = r'C:\Program Files\Java\jdk-11'
 
-Adjust according to your system.
+8️⃣ **Edit Java Path in Code (If Required)**
 
-9️⃣ Run the Application
+✅ Inside your script, make sure:
 
-Click ▶ Run in IntelliJ.
+✅ import os
+✅ os.environ['JAVA_HOME'] = r'C:\Program Files\Java\jdk-11'
 
-If configured correctly:
+✅ Adjust according to your system.
 
-Spark will start locally
 
-Console will display Spark logs
 
-Output will be printed
+9️⃣ **Run the Application**
+
+✅ Click ▶ Run in IntelliJ.
+
+✅ If configured correctly:
+
+✅ Spark will start locally
+
+✅ Console will display Spark logs
+
+✅ Output will be printed
 
 📂 Recommended Project Structure
 project_name/
@@ -127,7 +140,13 @@ project_name/
  ├── Dataset/
  ├── spark-config/
  └── README.md
-🚀 Why This Setup?
+
+
+
+
+
+ 
+🚀 ##Why This Setup?
 
 ✔ No Hadoop cluster required
 ✔ Runs Spark locally
