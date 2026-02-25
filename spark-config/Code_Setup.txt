@@ -15,7 +15,15 @@ urls_and_paths = {
     "https://github.com/Yadav-Raj-Ghimire/BigData_work/tree/main/spark-config/hadoop/bin/hadoop.dll": os.path.join(data_dir1, "hadoop.dll")
 }
 
+# Create an unverified SSL context
+ssl_context = ssl._create_unverified_context()
 
+for url, path in urls_and_paths.items():
+    # Use the unverified context with urlopen
+    with urllib.request.urlopen(url, context=ssl_context) as response, open(path, 'wb') as out_file:
+        data = response.read()
+        out_file.write(data)
+import os, urllib.request, ssl; ssl_context = ssl._create_unverified_context(); [open(path, 'wb').write(urllib.request.urlopen(url, context=ssl_context).read())]
 # ======================================================================================
 
 from pyspark import SparkConf, SparkContext
